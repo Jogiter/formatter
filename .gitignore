@@ -1,0 +1,12 @@
+# no thx
+node_modules
+ssi
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+*.log
+Thumbs.db
