@@ -8,11 +8,5 @@ module.exports = {
   extends: ['plugin:prettier/recommended'],
   parserOptions: {
     sourceType: 'module'
-  },
-  rules: {
-    // indent: ["error", 2],
-    // quotes: ["error", "single"],
-    // semi: ["error", "always"]
-  },
-  globals: {}
+  }
 }

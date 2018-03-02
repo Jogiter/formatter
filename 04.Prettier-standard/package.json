@@ -1,0 +1,16 @@
+{
+  "name": "prettier-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier-standard": "^8.0.0"
+  },
+  "scripts": {
+    "format": "prettier-standard 'src/*.js'"
+  },
+  "dependencies": {
+    "prettier": "^1.11.1",
+    "standard": "^11.0.0"
+  }
+}

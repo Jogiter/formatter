@@ -12,6 +12,6 @@
     "eslint-plugin-standard": "^3.0.1"
   },
   "scripts": {
-    "eslint": "eslint ./ --fix"
+    "format": "eslint --fix ./"
   }
 }

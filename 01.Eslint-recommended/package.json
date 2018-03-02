@@ -1,0 +1,12 @@
+{
+  "name": "prettier-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "format": "eslint --fix ./"
+  },
+  "dependencies": {
+    "eslint": "^4.18.1"
+  }
+}

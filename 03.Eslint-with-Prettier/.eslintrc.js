@@ -5,12 +5,12 @@ module.exports = {
     commonjs: true,
     es6: true
   },
-  extends: "standard",
+  extends: 'eslint:recommended',
   parserOptions: {
-    sourceType: "module"
+    sourceType: 'module'
   },
+  plugins: ['prettier'],
   rules: {
-  },
-  globals: {
+    'prettier/prettier': 'error'
   }
-};
+}

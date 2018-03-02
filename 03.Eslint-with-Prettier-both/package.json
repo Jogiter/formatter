@@ -10,10 +10,6 @@
     "prettier": "^1.11.1"
   },
   "scripts": {
-    "eslint": "eslint ./ --fix"
-  },
-  "prettier": {
-    "semi": false,
-    "singleQuote": true
+    "format": "eslint --fix ./"
   }
 }
