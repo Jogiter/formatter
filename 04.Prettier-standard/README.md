@@ -3,10 +3,18 @@
 # docs
 
 + [Eslint](https://github.com/eslint/eslint)
-+ [Prettier Integrating with ESLint](https://prettier.io/docs/en/eslint.html)
-+ [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) Turns off all rules that are unnecessary or might conflict with Prettier.
++ [prettier-eslint](https://github.com/prettier/prettier-eslint)
++ [prettier-standard](https://github.com/sheerun/prettier-standard)
++ [eslint-config-standard](https://github.com/standard/eslint-config-standard)
 
->note: lint will not report errors
+>note: eslint will not report errors
+
+# install
+
+```
+> yarn add --dev prettier-standard
+> yarn add --dev eslint-config-standard eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
+```
 
 # .eslintrc.js
 
@@ -15,15 +23,9 @@ module.exports = {
   root: true,
   env: {
     node: true,
-    commonjs: true,
     es6: true
   },
-  // extends: ['plugin:prettier/recommended'],
-  extends: 'prettier',
-  plugins: ['prettier'],
-  rules: {
-    'prettier/prettier': 'error'
-  },
+  extends: 'standard', // see [eslint-config-standard](https://github.com/standard/eslint-config-standard)
   parserOptions: {
     sourceType: 'module'
   }

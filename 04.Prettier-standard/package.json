@@ -4,10 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
     "prettier-standard": "^8.0.0"
   },
   "scripts": {
-    "format": "prettier-standard 'src/*.js'"
+    "format": "prettier-standard src/*.js"
   },
   "dependencies": {
     "prettier": "^1.11.1",
