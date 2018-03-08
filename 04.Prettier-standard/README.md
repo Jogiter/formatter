@@ -7,7 +7,9 @@
 + [prettier-standard](https://github.com/sheerun/prettier-standard)
 + [eslint-config-standard](https://github.com/standard/eslint-config-standard)
 
->note: eslint will not report errors
+>note: prettier-standard is a formatter, not a linter. It'll never output any linting errors
+
+see [#17](https://github.com/sheerun/prettier-standard/issues/17)
 
 # install
 
